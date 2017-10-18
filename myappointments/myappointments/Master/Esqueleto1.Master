@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Esqueleto1.master.cs" Inherits="myappointments.Master.Esqueleto1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../cssEsqueleto1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="logo">
+            <img src="../imagenes/logo__0__497%20(1).png" />
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            My Appointments
+        </footer>
+    </form>
+</body>
+</html>
