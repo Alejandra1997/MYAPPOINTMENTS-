@@ -1,0 +1,17 @@
+﻿body {
+    background-color: #A9CCE3;
+}
+header {
+    text-align: center;
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-color: #5D6D7E;
+}
+footer {
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    border-top: solid;
+    border-top-color: #5D6D7E;
+}
