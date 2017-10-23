@@ -65,9 +65,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="DatosdelMedico.aspx" />
     <Content Include="imagenes\child_boy-128.png" />
     <Content Include="imagenes\x-05-128.png" />
+=======
+    <Content Include="EditarPerfil1.aspx" />
+    <Content Include="EditarPerfildelMedico.aspx" />
+>>>>>>> a7188297ff89d936fe110ae4f75ac3aeb6a11f94
     <Content Include="packages.config" />
     <Content Include="Esqueleto1.Master" />
     <Content Include="WebForm1.aspx" />
@@ -83,6 +88,7 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="imagenes\logo__0__497 %281%29.png" />
+    <Content Include="PerfildelMedico.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +106,20 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditarPerfil1.aspx.cs">
+      <DependentUpon>EditarPerfil1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPerfil1.aspx.designer.cs">
+      <DependentUpon>EditarPerfil1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPerfildelMedico.aspx.cs">
+      <DependentUpon>EditarPerfildelMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPerfildelMedico.aspx.designer.cs">
+      <DependentUpon>EditarPerfildelMedico.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Esqueleto1.Master.cs">
       <DependentUpon>Esqueleto1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -109,6 +129,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PerfildelMedico.aspx.cs">
+      <DependentUpon>PerfildelMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfildelMedico.aspx.designer.cs">
+      <DependentUpon>PerfildelMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
