@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EditarPerfil1.aspx" />
     <Content Include="EditarPerfildelMedico.aspx" />
     <Content Include="packages.config" />
     <Content Include="Esqueleto1.Master" />
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPerfil1.aspx.cs">
+      <DependentUpon>EditarPerfil1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPerfil1.aspx.designer.cs">
+      <DependentUpon>EditarPerfil1.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditarPerfildelMedico.aspx.cs">
       <DependentUpon>EditarPerfildelMedico.aspx</DependentUpon>
