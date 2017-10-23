@@ -1,5 +1,6 @@
 ﻿body {
     background-color: #A9CCE3;
+    margin:0;
 }
 header {
     text-align: center;
@@ -8,10 +9,12 @@ header {
     border-bottom-color: #5D6D7E;
 }
 footer {
+    color:#7574AA;
     background-color: white;
     text-align: center;
     position: absolute;
     bottom: 0px;
     border-top: solid;
     border-top-color: #5D6D7E;
+    width:100%
 }
