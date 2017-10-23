@@ -65,14 +65,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Content Include="DatosdelMedico.aspx" />
     <Content Include="imagenes\child_boy-128.png" />
     <Content Include="imagenes\x-05-128.png" />
-=======
     <Content Include="EditarPerfil1.aspx" />
     <Content Include="EditarPerfildelMedico.aspx" />
->>>>>>> a7188297ff89d936fe110ae4f75ac3aeb6a11f94
     <Content Include="packages.config" />
     <Content Include="Esqueleto1.Master" />
     <Content Include="WebForm1.aspx" />
