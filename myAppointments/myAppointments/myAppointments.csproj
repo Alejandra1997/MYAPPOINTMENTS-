@@ -65,9 +65,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EditarPerfildelMedico.aspx" />
     <Content Include="packages.config" />
     <Content Include="Esqueleto1.Master" />
-    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,11 +80,7 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="imagenes\logo__0__497 %281%29.png" />
-<<<<<<< HEAD
     <Content Include="PerfildelMedico.aspx" />
-=======
-    <Content Include="RegistrationForm.aspx" />
->>>>>>> e81f5307a8d2329265bc936f32dcf5a0c30c27f0
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +90,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPerfildelMedico.aspx.cs">
+      <DependentUpon>EditarPerfildelMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPerfildelMedico.aspx.designer.cs">
+      <DependentUpon>EditarPerfildelMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Esqueleto1.Master.cs">
       <DependentUpon>Esqueleto1.Master</DependentUpon>
@@ -113,13 +116,6 @@
       <DependentUpon>PerfildelMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistrationForm.aspx.cs">
-      <DependentUpon>RegistrationForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="RegistrationForm.aspx.designer.cs">
-      <DependentUpon>RegistrationForm.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
