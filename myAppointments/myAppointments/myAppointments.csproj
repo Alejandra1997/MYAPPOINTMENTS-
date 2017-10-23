@@ -65,9 +65,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Content Include="DatosdelMedico.aspx" />
+    <Content Include="imagenes\child_boy-128.png" />
+    <Content Include="imagenes\x-05-128.png" />
+=======
+    <Content Include="EditarPerfil1.aspx" />
     <Content Include="EditarPerfildelMedico.aspx" />
+>>>>>>> a7188297ff89d936fe110ae4f75ac3aeb6a11f94
     <Content Include="packages.config" />
     <Content Include="Esqueleto1.Master" />
+    <Content Include="WebForm1.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,12 +92,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatosdelMedico.aspx.cs">
+      <DependentUpon>DatosdelMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DatosdelMedico.aspx.designer.cs">
+      <DependentUpon>DatosdelMedico.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPerfil1.aspx.cs">
+      <DependentUpon>EditarPerfil1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPerfil1.aspx.designer.cs">
+      <DependentUpon>EditarPerfil1.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditarPerfildelMedico.aspx.cs">
       <DependentUpon>EditarPerfildelMedico.aspx</DependentUpon>
@@ -116,6 +138,13 @@
       <DependentUpon>PerfildelMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
