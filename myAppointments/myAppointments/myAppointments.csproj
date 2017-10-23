@@ -79,6 +79,7 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="imagenes\logo__0__497 %281%29.png" />
+    <Content Include="PerfildelMedico.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PerfildelMedico.aspx.cs">
+      <DependentUpon>PerfildelMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfildelMedico.aspx.designer.cs">
+      <DependentUpon>PerfildelMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
