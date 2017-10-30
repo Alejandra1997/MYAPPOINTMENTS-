@@ -27,5 +27,5 @@
         Codigo:<asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Editar" />
+        <asp:Button ID="Button1" runat="server" Text="Editar" OnClick="Button1_Click" />
 </asp:Content>

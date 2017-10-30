@@ -2,6 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    &nbsp;<div style="text-align:center">
     <h1>Se ha editado su perfil con Éxito</h1>
-    <asp:Button ID="Button1" runat="server" Text="Volver" Width="95px" />
+    <asp:Button ID="Button1" runat="server" Text="Volver" Width="95px" OnClick="Button1_Click" />
     </div>
 </asp:Content>
