@@ -8,7 +8,7 @@
         Nombre:
          <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
         <br />
-        Apellido:<asp:TextBox ID="TextBox3" runat="server" OnTextChanged="TextBox3_TextChanged" Width="132px"></asp:TextBox>
+        Apellido:<asp:TextBox ID="TextBox3" runat="server"  Width="132px"></asp:TextBox>
 
         <br />
         Edad:&nbsp;&nbsp;&nbsp;
@@ -27,5 +27,5 @@
         Codigo:<asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Editar" />
+        <asp:Button ID="Button1" runat="server" Text="Editar" OnClick="Button1_Click" />
 </asp:Content>
