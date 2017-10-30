@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace myAppointments
 {
-    public partial class Registro : System.Web.UI.Page
+    public partial class ConfirmacionRegistro : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,12 +16,7 @@ namespace myAppointments
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        protected void Button1_Click1(object sender, EventArgs e)
-        {
-            Response.Redirect("ConfirmacionRegistro.aspx");
+            Response.Redirect("PerfildelMedico.aspx");
         }
     }
 }

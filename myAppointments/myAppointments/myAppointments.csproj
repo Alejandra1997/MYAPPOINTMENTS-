@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConfirmacionRegistro.aspx" />
     <Content Include="DatosdelMedico.aspx" />
     <Content Include="imagenes\child_boy-128.png" />
     <Content Include="imagenes\x-05-128.png" />
@@ -90,6 +91,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfirmacionRegistro.aspx.cs">
+      <DependentUpon>ConfirmacionRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmacionRegistro.aspx.designer.cs">
+      <DependentUpon>ConfirmacionRegistro.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DatosdelMedico.aspx.cs">
       <DependentUpon>DatosdelMedico.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
