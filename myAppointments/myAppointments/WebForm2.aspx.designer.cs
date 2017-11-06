@@ -10,24 +10,42 @@
 namespace myAppointments {
     
     
-    public partial class Calendario {
+    public partial class WebForm2 {
         
         /// <summary>
-        /// Control BAgregarC.
+        /// Control QSomos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BAgregarC;
+        protected global::System.Web.UI.WebControls.Label QSomos;
         
         /// <summary>
-        /// Control BEliminarC.
+        /// Control Contacto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BEliminarC;
+        protected global::System.Web.UI.WebControls.Label Contacto;
+        
+        /// <summary>
+        /// Control CFunciona.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CFunciona;
+        
+        /// <summary>
+        /// Control Medico.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Medico;
     }
 }
