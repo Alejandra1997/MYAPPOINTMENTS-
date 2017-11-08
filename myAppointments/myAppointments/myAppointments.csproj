@@ -65,18 +65,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Calendario.aspx" />
     <Content Include="ConfirmacionRegistro.aspx" />
     <Content Include="DatosdelMedico.aspx" />
     <Content Include="imagenes\back-32.png" />
+    <Content Include="imagenes\BDoctor.png" />
+    <Content Include="imagenes\Cfunciona.png" />
     <Content Include="imagenes\child_boy-128.png" />
+    <Content Include="imagenes\DoctorImg.jpg" />
+    <Content Include="imagenes\house.png" />
+    <Content Include="imagenes\Qsomos.png" />
     <Content Include="imagenes\x-05-128.png" />
     <Content Include="EditarPerfil1.aspx" />
     <Content Include="EditarPerfildelMedico.aspx" />
     <Content Include="packages.config" />
     <Content Include="Esqueleto1.Master" />
     <Content Include="Registro.aspx" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Inicio.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -93,13 +97,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calendario.aspx.cs">
-      <DependentUpon>Calendario.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Calendario.aspx.designer.cs">
-      <DependentUpon>Calendario.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ConfirmacionRegistro.aspx.cs">
       <DependentUpon>ConfirmacionRegistro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -160,12 +157,12 @@
     <Compile Include="Registro.aspx.designer.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
