@@ -67,6 +67,13 @@
   <ItemGroup>
     <Content Include="ConfirmacionRegistro.aspx" />
     <Content Include="DatosdelMedico.aspx" />
+    <Content Include="HTML\IngresarCorreoRecuperarCuenta.html" />
+    <Content Include="HTML\IngresarNuevaContraseña.html" />
+    <Content Include="HTML\IngresarNuevaContraseñaError.html" />
+    <Content Include="HTML\Login.css" />
+    <Content Include="HTML\Login.html" />
+    <Content Include="HTML\RecuperarCodigo.html" />
+    <Content Include="HTML\RecuperarCodigoError.html" />
     <Content Include="imagenes\back-32.png" />
     <Content Include="imagenes\BDoctor.png" />
     <Content Include="imagenes\Cfunciona.png" />
