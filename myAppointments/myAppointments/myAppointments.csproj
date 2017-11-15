@@ -70,6 +70,7 @@
     <Content Include="HTML\IngresarCorreoRecuperarCuenta.html" />
     <Content Include="HTML\IngresarNuevaContraseña.html" />
     <Content Include="HTML\IngresarNuevaContraseñaError.html" />
+    <Content Include="HTML\js.js" />
     <Content Include="HTML\Login.css" />
     <Content Include="HTML\Login.html" />
     <Content Include="HTML\RecuperarCodigo.html" />
